@@ -3,6 +3,7 @@ import Home from './components/home/Home'
 import Cart from './components/cart/Cart'
 import NotFound from "./partials/notFundPage/NotFound";
 import Nav from "./partials/nav/Nav";
+import Footer from "./partials/footer/Footer";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/cart" element={<Cart />}/>
         <Route path="*" element={<NotFound />}/>
       </Routes>
+      <Footer />
     </div>
   );
 }

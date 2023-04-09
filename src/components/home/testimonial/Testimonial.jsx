@@ -6,39 +6,32 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 
-import "./style/styles.css";
+import './style/styles.css'
 
 // import required modules
 import { Autoplay, Navigation, Pagination } from "swiper";
-import SpecialCart from "./SpecialCart";
+import TestimonialComponent from "./TestimonialComponent";
 
-function Slider() {
-  const pagination = {
-    clickable: true,
-    renderBullet: function (index, className) {
-      return '<span class="' + className + '">' + (index + 1) + "</span>";
-    },
-  };
-
+function Testimonial() {
   return (
-    <div className="w-full h-[120vh] lg:h-[100vh]">
+    <div className="mt-14 w-[100%] h-[100vh] md:h-[80vh]">
       <Swiper
-        pagination={pagination}
+        pagination={{
+          dynamicBullets: true,
+        }}
         autoplay={{
           delay: 2500,
           disableOnInteraction: false,
         }}
         modules={[Autoplay, Pagination, Navigation]}
+        className="mySwiper"
       >
         <SwiperSlide>
-          <SpecialCart />
+            <TestimonialComponent />
         </SwiperSlide>
         <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
       </Swiper>
     </div>
   );
 }
-
-export default Slider;
+export default Testimonial;

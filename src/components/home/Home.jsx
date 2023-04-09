@@ -3,6 +3,7 @@ import Carousel from './Carousel';
 import Catagory from './Catagory';
 import TopRated from './TopRated';
 import SpecialEdition from './specialEdition/SpecialEdition';
+import Testimonial from './testimonial/Testimonial';
 
 function Home(props) {
     return (
@@ -11,6 +12,7 @@ function Home(props) {
             <Catagory />
             <TopRated />
             <SpecialEdition />
+            <Testimonial />
         </div>
     );
 }

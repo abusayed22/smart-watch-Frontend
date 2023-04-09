@@ -6,7 +6,7 @@ import { CiFacebook, CiInstagram, CiYoutube } from "react-icons/ci";
 function Footer(props) {
   return (
     <div>
-      <div className="md:flex md:justify-center items-center w-[90%] mx-auto">
+      <div className="mt-14 md:flex md:justify-center items-center w-[90%] mx-auto">
         <div className="w-[90%] mx-auto md:w-[29%] h-80 flex flex-col items-center">
           <b className="text-2xl text-braun">Teams of condition</b>
           <p className="mt-10 md:mt-14 text-grray text-center">

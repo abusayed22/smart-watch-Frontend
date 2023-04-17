@@ -3,6 +3,7 @@ npm install aos --save
 yarn add animate.css
 npm i swiper
 npm i react-image-magnify
+npm install formik & npm i yup
 
 font-familly: mordren: ['Alkatra', 'cursive'], Alkatra: ['Alkatra','cursive']
 

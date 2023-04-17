@@ -5,10 +5,6 @@ export const navItems = [
       url: "/",
     },
     {
-      title: "Best Selling",
-      url: "/best-selling",
-    },
-    {
       title: "Products",
       url: "/products",
     },
@@ -17,9 +13,13 @@ export const navItems = [
       url: "/events",
     },
     {
-      title: "FAQ",
-      url: "/faq",
+      title: "MODELS",
+      url: "/models",
     },
+    // {
+    //   title: "FAQ",
+    //   url: "/faq",
+    // },
   ];
 
  // categories data

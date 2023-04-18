@@ -1,4 +1,8 @@
-const styles = {
+export const styles = {
+  // login & register
+    normal_input :  "bg-gray h-8 border border-green text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5  dark:border-gray dark:focus:ring-blue dark:focus:border-blue outline outline-offset-2 outline-off_white border-none",
+    input_container: "mx-auto sm:w-8/12 md:w-4/12",
+
     custom_container: "w-11/12 hidden sm:block",
     heading: 'text-[27px] text-center md:text-start font-[600] font-Roboto pb-[20px]',
     section:'w-11/12 mx-auto',
@@ -15,4 +19,3 @@ const styles = {
     noramlFlex:"flex items-center"
   };
   
-  export default styles;

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { Fragment, useState } from "react";
 import { Link } from "react-router-dom";
 import { AiOutlineClose } from "react-icons/ai";
 import "animate.css";
@@ -53,11 +53,11 @@ function NavTwo(props) {
               MODELS
             </Link> */}
             {navItems?.map((item) => (
-                  <>|
-                  <Link to={item.url} className="font-bold">
+                  <Fragment key={item.url}>|
+                  <Link  to={item.url} className="font-bold">
                   {item.title}
                 </Link>
-                |</>
+                |</Fragment>
                 ))}
           </div>
         </div>

@@ -1,10 +1,12 @@
 export const styles = {
-  // login & register
-    normal_input :  "bg-gray h-8 border border-green text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5  dark:border-gray dark:focus:ring-blue dark:focus:border-blue outline outline-offset-2 outline-off_white border-none",
-    input_container: "mx-auto sm:w-8/12 md:w-4/12",
+  // login & register Form
+    f_heading: "font-bold text-2xl text-center p-2 text-[#393A5A] font-serif",
+    f_input :  "bg-[#393A5A] w-full h-10 rounded-lg text-off_white border-none block p-2.5 text-md focus:outline-off_white",
+    f_label: "font-semibold text-[#393A5A] text-md",
+    form_container: "w-[65%] h-[70vh] flex  flex-col justify-center md:w-[35%] mx-auto lg:w-[30%]",
 
     custom_container: "w-11/12 hidden sm:block",
-    heading: 'text-[27px] text-center md:text-start font-[600] font-Roboto pb-[20px]',
+    // heading: 'text-[27px] text-center md:text-start font-[600] font-Roboto pb-[20px]',
     section:'w-11/12 mx-auto',
     productTitle: 'text-[25px] font-[600] font-Roboto text-[#333]',
     productDiscountPrice:"font-bold text-[18px] text-[#333] font-Roboto",

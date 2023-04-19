@@ -25,7 +25,8 @@ module.exports = {
       braun: "#a39070",
       grray: "#c3c4c6",
       off_white: "#e5dfd3",
-      white: "#f9fafb"
+      white: "#f9fafb",
+      blue: "#393A5A"
     }
   },
   plugins: [],

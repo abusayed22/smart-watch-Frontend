@@ -1,6 +1,7 @@
 import React from 'react'
 import Input from './allForms/Input' 
 import Select from './allForms/Select'
+import Checkbox from './allForms/Checkbox'
 
 function FormController(props) {
     const {control, ...rest} = props
@@ -12,6 +13,8 @@ function FormController(props) {
             return <Input {...rest} />
         case "select":
             return <Select {...rest} />
+        case "checkbox":
+            return <Checkbox {...rest} />
             
     
         default: return null

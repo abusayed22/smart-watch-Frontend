@@ -22,7 +22,7 @@ function NavTwo(props) {
             <div className="absolute w-full h-auto top-12 ">
               <ul className="z-30 w-[100%] bg-[#0c0f11a1] h-[180px] flex flex-col items-center justify-around rounded-b-md">
                 {navItems?.map((item) => (
-                  <li>
+                  <li className="animate__animated animate__backInLeft">
                     <Link
                       to={item.url}
                       className="font-bold animate__animated animate__fadeInDownBig0"

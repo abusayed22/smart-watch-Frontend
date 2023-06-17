@@ -5,13 +5,14 @@ import ReactImageMagnify from "react-image-magnify";
 
 function SpecialCart(props) {
   return (
-    <div className="w-[90%] flex flex-col items-center md:flex-row md:items-start">
+    <div className="w-[90%] h-[70vh] lg:h-[90vh] bg-ash flex flex-col items-center md:flex-row md:items-start">
       {/* TODO: image setcion */}
-      <div className="w-[60%] h-[10%] flex flex-col">
-        <div className="w-[100%] h-[10%] ">
+      <div className="w-[60%] bg-braun flex flex-col space-y-1">
+        <div className="w-[100%]">
           {/* image megnify */}
+          
           <ReactImageMagnify
-          className="w-[100%] h-[80%] rounded-md"
+          className="w-[100%] rounded-md"
             {...{
               smallImage: {
                 alt: "Wristwatch by Ted Baker London",
@@ -20,23 +21,25 @@ function SpecialCart(props) {
               },
               largeImage: {
                 src: test,
-                width: 900,
-                height: 500,
+                width: 800,
+                height: 400,
               },
             }}
           />
+
           {/* <img src={test} alt="" className='w-[100%] h-[50%] cursor-pointer hover:scale-150 duration-150' /> */}
         </div>
-        <div className="h-[200px] flex justify-around items-center">
-          <div className="w-[32.9%] h-[50%]  bg-black">
+        <div className=" h-[100px] md:h-[80px] flex justify-around items-center ">
+          <div className="w-[32.9%] h-[80%]  bg-black">
             <img src={test} alt="" />
           </div>
-          <div className="w-[32.9%] h-[50%]  bg-ash">
-            <img src={test} alt="" className="" />
-          </div>
-          <div className="w-[32.9%] h-[50%] bg-braun">
+          <div className="w-[32.9%] h-[80%]  bg-black">
             <img src={test} alt="" />
           </div>
+          <div className="w-[32.9%] h-[80%]  bg-black">
+            <img src={test} alt="" />
+          </div>
+          
         </div>
       </div>
       {/* TODO: contend */}

@@ -16,7 +16,7 @@ function Catagory(props) {
             <div className=''>
                 <div className='flex flex-col items-center md:flex-row md:justify-center w-full space-y-3 md:space-y-0 md:flex md:space-x-3'>
                     {catImg.map(c => (
-                        <div className='relative w-[300px] md:w-[250px] h-[200px] md:h-[350px] bg-black bg-cover bg-center flex justify-center items-center hover:scale-105 duration-100'>
+                        <div key={c.img} className='relative w-[300px] md:w-[250px] h-[200px] md:h-[350px] bg-black bg-cover bg-center flex justify-center items-center hover:scale-105 duration-100'>
                             <img src={c.img} alt="men" className='opacity-50 w-[300px] md:w-[250px] h-[200px] md:h-[350px] rounded-lg ' />
                             <b className='absolute bottom-10 left-5 hover:left-10 font-style text-ash'>{c.name}</b>
                         </div>

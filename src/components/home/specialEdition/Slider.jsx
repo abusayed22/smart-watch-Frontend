@@ -21,7 +21,7 @@ function Slider() {
   };
 
   return (
-    <div className="w-full h-[120vh] lg:h-[100vh]">
+    <div className="w-full h-[100vh] lg:h-[80vh] ">
       <Swiper
         pagination={pagination}
         autoplay={{

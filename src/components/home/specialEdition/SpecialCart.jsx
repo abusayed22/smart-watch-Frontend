@@ -5,14 +5,14 @@ import ReactImageMagnify from "react-image-magnify";
 
 function SpecialCart(props) {
   return (
-    <div className="w-[90%] h-[70vh] lg:h-[90vh] bg-ash flex flex-col items-center md:flex-row md:items-start">
+    <div className="w-[80%] h-[70vh]  flex flex-col items-center md:flex-row md:items-start">
       {/* TODO: image setcion */}
-      <div className="w-[60%] bg-braun flex flex-col space-y-1">
+      <div className="w-[60%] flex flex-col space-y-1">
         <div className="w-[100%]">
           {/* image megnify */}
           
           <ReactImageMagnify
-          className="w-[100%] rounded-md"
+          className="w-[50%] rounded-md"
             {...{
               smallImage: {
                 alt: "Wristwatch by Ted Baker London",
@@ -22,7 +22,7 @@ function SpecialCart(props) {
               largeImage: {
                 src: test,
                 width: 800,
-                height: 400,
+                height: 500,
               },
             }}
           />
@@ -43,10 +43,10 @@ function SpecialCart(props) {
         </div>
       </div>
       {/* TODO: contend */}
-      <div className="w-[100%] md:w-[50%] h-[300px] p-5 flex flex-col items-start space-y-2 md:space-y-4">
+      <div className="w-[100%] md:w-[50%] h-[100%] p-5 flex flex-col items-start space-y-2 ">
         <b>Black leather smart watch for men</b>
         <div className="flex space-x-2">
-          <p>Price: </p> <p> $1880 </p>
+          <p className="font-medium">Price: </p> <p className="text-blue text-xl font-medium"> $1880 </p>
         </div>
         <p className="text-left text-sm md:text-lg md:text-justify font-thin  ">
           This is the best in class effective watches from the luxury brand
@@ -58,7 +58,7 @@ function SpecialCart(props) {
         {/* TODO:conditonal */}
         <div className="flex space-x-5">
           <div className="flex items-center space-x-4">
-            <p>1</p>
+            <p className="font-medium">1</p>
             <div className="flex flex-col">
             <button>
               <BiUpArrow className="text-sm" />

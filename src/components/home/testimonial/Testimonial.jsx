@@ -14,7 +14,7 @@ import TestimonialComponent from "./TestimonialComponent";
 
 function Testimonial() {
   return (
-    <div className="mt-14 w-[100%] h-[100vh] md:h-[80vh]">
+    <div className="mt-0 w-[100%] h-[100vh] md:h-[80vh]">
       <Swiper
         pagination={{
           dynamicBullets: true,

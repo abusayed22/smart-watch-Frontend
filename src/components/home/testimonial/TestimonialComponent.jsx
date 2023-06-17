@@ -5,6 +5,7 @@ import { ReadMore } from '../../reusableComponents/utils/ReadMore';
 function TestimonialComponent(props) {
     return (
         <div className=''>
+            <p className='text-center my-4 text-braun text-2xl font-serif font-bold'>They <span className='text-black'>say!</span></p>
             <div className='space-y-4 flex flex-col justify-center items-center md:flex md:justify-center md:items-center'>
                 <div className='w-[50%] md:w-[30%] flex flex-col justify-center items-center'>
                     <img  src={test} alt="" className='!w-28 !h-28 md:w-48 md:h-48 bg-cover rounded-full' />

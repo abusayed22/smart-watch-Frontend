@@ -24,10 +24,10 @@ function Slider() {
     <div className="w-full h-[100vh] lg:h-[80vh] ">
       <Swiper
         pagination={pagination}
-        autoplay={{
-          delay: 2500,
-          disableOnInteraction: false,
-        }}
+        // autoplay={{
+        //   delay: 2500,
+        //   disableOnInteraction: false,
+        // }}
         modules={[Autoplay, Pagination, Navigation]}
       >
         <SwiperSlide>
